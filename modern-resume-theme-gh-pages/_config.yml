@@ -1,0 +1,97 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Oscar Uriel Hernandez Michel
+title: Ingeniero en Computacion
+email: Oscar.hernandez5047@alumnos.udg.mx
+website: https://github.com/urimichel
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+github_username:  urimichel
+# facebook_username: Uri Michel
+
+
+# Additional icon links
+additional_links:
+- title: itsgoingto.be
+  icon: fas fa-globe
+  url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# About Section
+about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | 
+  
+        Hello, my name is Uriel. I am a Computer Engineering student in my last semester. I have worked as a network system administrator and as a Test Engineer. 
+        I also have some experience as a web developer. I am passionate about technology, generating projects, and teamwork.
+
+content:
+ 
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: IBM
+        sub_title: Ingeniero de Pruebas
+        caption: August 2021 - January 2022
+        quote: |
+        description: | # this will include new lines to allow paragraphs
+            -Successfully completed manufacturing operations with her colleagues, achieving a new time limit for product production.
+
+            -Maintained the work area corresponding to her project clean, functional, and organized.
+
+            -Supported the coordinator in improving operations and troubleshooting to provide first-class customer service.
+            
+            -Configured machines according to the specifications of each task.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Centro Universitario de Ciencias Exactas e Ingenierias
+        caption: 2019 - 2023
+        sub_title: Ingeniero en Computacion
+        quote: >
+      
+        description: | # this will include new lines to allow paragraphs
+          During my time at CUCEI, I acquired most of my key skills that I have carried throughout my career, such as teamwork, project management, and leadership, as well as the ability to meet tight deadlines. I enjoyed my time at the university very much and learned a lot about maintaining a healthy work-life balance.
+
+          I devoted a significant portion of my free time as a member of the student society, taking on roles such as the president of my major and General Student Representative..
+
+  - title: A Little More About Me
+    layout: text
+    content: |
+      Alongside my interests in networks and software engineering, some of my other interests and hobbies are:
+
+      -Politics
+
+      -Video games
+
+      -Helping people
+
+      -Business
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
